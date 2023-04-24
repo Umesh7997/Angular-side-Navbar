@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Side nav and horizontal nav using html and css</title>
+</head>
+<body>
+  <nav class="navbar">
+    <div class="horizontal-nav">
+      <ul>
+        <li><a routerLink="#">Home</a></li>
+        <li><a routerLink="#">About</a></li>
+      
+        <li><a routerLink="#">Contact</a></li>
+      </ul>
+    </div>
+    <div class="side-nav">
+      <ul>
+        <li><a routerLink="#">Dashboard</a></li>
+        <li><a routerLink="#">Settings</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown <i class="fa fa-caret-down"></i></button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          
+        </li>
+        <li><a routerLink="#">Logout</a></li>
+      </ul>
+    </div>
+  </nav>
+  
+  
+</body>
+</html>
